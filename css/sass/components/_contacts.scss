@@ -1,0 +1,38 @@
+.contacts-link {
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+
+  display: flex;
+  align-items: center;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.light-contacts-link {
+  color: var(--light-address-color);
+  font-style: normal;
+}
+.list-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+.office-address {
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--main-white-color);
+  font-style: normal;
+
+  display: block;
+  margin-bottom: 9px;
+}

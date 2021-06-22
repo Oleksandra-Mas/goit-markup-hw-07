@@ -1,0 +1,27 @@
+.header-container {
+  align-items: center;
+}
+.header {
+  border-bottom: 1px solid var(--border-color);
+}
+.header-container,
+.site-nav,
+.site-nav-list {
+  display: flex;
+}
+.contact-nav {
+  display: flex;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.contact-nav-item {
+  & + & {
+    margin-left: 50px;
+  }
+}
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

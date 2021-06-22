@@ -1,0 +1,24 @@
+.logo-webstudio {
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+  color: var(--accent-color);
+  text-decoration: none;
+
+  display: block;
+  padding-bottom: 25px;
+  padding-top: 24px;
+  margin-right: 93px;
+}
+.studio-logo-part {
+  color: var(--logo-primary-color);
+}
+
+.light-logo-webstudio {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+.light-studio-logo-part {
+  color: var(--main-white-color);
+}

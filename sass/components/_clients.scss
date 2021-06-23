@@ -1,20 +1,14 @@
 .client-list {
+  @extend .list;
   display: flex;
   justify-content: center;
 }
-.clients-title {
-  font-size: 36px;
-  line-height: 1/167;
-  text-align: center;
-  color: var(--title-text-color);
-  margin-bottom: 50px;
-}
-.client-list-item {
+.client-list__item {
   & + & {
     margin-left: 30px;
   }
 }
-.client-list-item-link {
+.client-list__link {
   width: 170px;
   height: 92px;
   display: inline-block;
@@ -37,6 +31,6 @@
   }
 }
 
-.client-icon {
+.client-list__icon {
   fill: currentColor;
 }

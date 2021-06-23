@@ -1,8 +1,9 @@
 .social-list {
+  @extend .list;
   display: flex;
   justify-content: center;
 }
-.social-list-item-link {
+.social-list__link {
   width: 44px;
   height: 44px;
   display: inline-block;
@@ -22,13 +23,16 @@
     color: var(--main-white-color);
   }
 }
-.social-list-item {
+.social-list__item {
   & + & {
     margin-left: 10px;
   }
 }
 
-.social-list-item-link-footer {
+.social-list__link--dark {
   background: var(--social-list-link-footer-background-color);
   color: var(--main-white-color);
+}
+.social-list__icon {
+  fill: currentColor;
 }

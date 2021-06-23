@@ -1,4 +1,11 @@
-.nav-link {
+.site-nav {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  @extend .list;
+}
+.nav-list__link {
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: 0.02em;
@@ -37,7 +44,7 @@
     left: 0;
   }
 }
-.site-nav-list-item {
+.nav-list__item {
   &:not(:last-child) {
     margin-right: 50px;
   }

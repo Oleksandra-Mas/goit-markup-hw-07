@@ -1,4 +1,4 @@
-.logo-webstudio {
+.logo {
   font-family: var(--logo-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -11,14 +11,14 @@
   padding-top: 24px;
   margin-right: 93px;
 }
-.studio-logo-part {
+.logo__studio-part {
   color: var(--logo-primary-color);
 }
 
-.light-logo-webstudio {
+.logo--light {
   margin: 0 0 20px 0;
   padding: 0;
 }
-.light-studio-logo-part {
+.logo__studio-part--light {
   color: var(--main-white-color);
 }

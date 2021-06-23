@@ -51,7 +51,7 @@
     color: var(--accent-color);
   }
 }
-.icon-close {
+.btn-close__icon {
   fill: currentColor;
 }
 .btn-close {
@@ -64,7 +64,7 @@
   cursor: pointer;
 }
 
-.modal-title {
+.modal__title {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -83,7 +83,7 @@
 .form {
   width: 100%;
 }
-.form-input {
+.form__input {
   display: block;
   font: inherit;
   width: 100%;
@@ -101,16 +101,16 @@
   }
 }
 
-.form-field {
+.form__field {
   & + & {
     margin-top: 10px;
   }
 }
-.form-input-box {
+.input-box {
   position: relative;
   color: var(--title-text-color);
 }
-.form-label {
+.form__label {
   display: block;
 
   font-size: 12px;
@@ -134,7 +134,7 @@
   }
 }
 
-.form-icon {
+.form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -146,37 +146,37 @@
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 
-  .form-input:focus ~ & {
+  .form__input:focus ~ & {
     color: var(--accent-color);
   }
 }
 
-.policy-text {
+.policy-checkbox__text {
   display: inline;
 }
-.policy-field {
+.policy-checkbox {
   margin-top: 20px;
   display: block;
   text-align: center;
   cursor: pointer;
 }
-.contract-terms {
+.policy-checkbox__contract-terms-link {
   color: var(--accent-color);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
-.checkbox {
+.policy-checkbox__input {
   appearance: none;
 }
-.icon-policy {
+.policy-checkbox__icon {
   display: inline-block;
 
   border: 1px solid var(--title-text-color);
   border-radius: 3px;
   fill: var(--main-white-color);
 
-  .checkbox:checked + & {
+  .policy-checkbox__input:checked + & {
     border: none;
     fill: var(--accent-color);
 

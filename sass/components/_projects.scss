@@ -44,13 +44,14 @@
   margin-top: calc(-1 * var(--card-margin));
 }
 
-.projects-thumb {
+.projects-list__thumb {
   position: relative;
   overflow: hidden;
 
   &::before {
     display: inline-block;
     content: '';
+
     position: absolute;
     top: 0;
     left: 0;

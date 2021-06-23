@@ -579,12 +579,12 @@ p {
   margin-top: calc(-1 * var(--card-margin));
 }
 
-.projects-thumb {
+.projects-list__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.projects-thumb::before {
+.projects-list__thumb::before {
   display: inline-block;
   content: '';
   position: absolute;
@@ -597,7 +597,7 @@ p {
   background: rgba(33, 150, 243, 0.9);
 }
 
-.projects-list__item:hover .projects-thumb::before {
+.projects-list__item:hover .projects-list__thumb::before {
   transform: translate(0, 0);
 }
 

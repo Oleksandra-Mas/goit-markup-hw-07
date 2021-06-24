@@ -3,7 +3,7 @@
 }
 .nav-list {
   display: flex;
-  @extend .list;
+  @extend %list;
 }
 .nav-list__link {
   font-weight: 500;

@@ -1,5 +1,5 @@
 .team-list {
-  @extend .list;
+  @extend %list;
   display: flex;
   flex-wrap: wrap;
 
@@ -17,15 +17,13 @@
 }
 .team-member-card__name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(16px, 1.19);
   color: var(--title-text-color);
 
   margin-bottom: var(--header-text-margin-index);
 }
 .team-member-card__position {
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(16px, 1.19);
   margin-bottom: 16px;
 }
 

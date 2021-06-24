@@ -1,8 +1,7 @@
 .filter-list__btn {
   font-family: inherit;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
+  @include font(16px, 1.63);
   color: var(--title-text-color);
   background-color: var(--grey-color);
   cursor: pointer;
@@ -46,4 +45,5 @@
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
+  @extend %list;
 }

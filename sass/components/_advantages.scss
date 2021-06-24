@@ -1,5 +1,5 @@
 .advantage__list {
-  @extend .list;
+  @extend %list;
   display: flex;
   flex-wrap: wrap;
 
@@ -12,11 +12,9 @@
   margin-top: var(--card-margin);
 }
 .advantage__header {
-  line-height: 1.14;
   color: var(--title-text-color);
   text-transform: uppercase;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 1.14);
   letter-spacing: 0.03em;
   font-weight: 700;
   margin-bottom: var(--header-text-margin-index);

@@ -1,16 +1,15 @@
 .projects-list {
   display: flex;
   flex-wrap: wrap;
+  @extend %list;
 }
 .project-card__name {
-  font-size: 18px;
-  line-height: 2;
+  @include font(18px, 1.2);
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .project-card__type {
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 1.88);
 }
 .projects-section__heading {
   display: none;
@@ -69,8 +68,7 @@
   }
 }
 .projects-list__description-text {
-  font-size: 18px;
-  line-height: 1.56;
+  @include font(18px, 1.56);
   color: var(--main-white-color);
 }
 .projects-list__description-box {

@@ -1,5 +1,5 @@
 .works-list {
-  @extend .list;
+  @extend %list;
   display: flex;
   flex-wrap: wrap;
 
@@ -26,8 +26,7 @@
   left: 0;
 }
 .works-list__title {
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 1.14);
   text-align: center;
   text-transform: uppercase;
 
